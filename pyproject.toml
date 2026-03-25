@@ -6,7 +6,7 @@ authors = [
     {name = "Waket Zheng", email = "waketzheng@gmail.com"},
 ]
 dependencies = [
-    "fast-dev-cli>=0.21.1",
+    "fast-dev-cli>=0.22",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
@@ -23,3 +23,6 @@ distribution = true
 dev = [
     "pytest>=9.0.2",
 ]
+
+[project.scripts]
+fast = "fast_dev_cli.cli:main"
