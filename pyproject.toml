@@ -1,6 +1,6 @@
 [project]
 name = "fastdevcli-slim"
-version = "0.22.0"
+version = "0.22.1"
 description = "Python Backend Development Toolkit"
 authors = [
     {name = "Waket Zheng", email = "waketzheng@gmail.com"},
